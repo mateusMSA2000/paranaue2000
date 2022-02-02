@@ -71,7 +71,7 @@ function setup() {
 function draw() {
   //trex.debug = true;
   background(255);
-  text("Pontuação: "+ pontuacao, 500,50);
+  text("Pontuação: "+ pontuacao, width -100,50);
   
   if (estadoJogo === JOGAR){
     pontuacao = pontuacao + Math.round(getFrameRate()/60);
